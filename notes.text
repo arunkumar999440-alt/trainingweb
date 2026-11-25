@@ -1,0 +1,114 @@
+var a=10;
+where a variable are decleared and reassign
+and 
+console.log(typeof a);
+to see what is a type of variable
+const b=10;
+no redeclear and reassign
+always constant never changes a value
+let a=20
+is we can reassign but not redeclear
+data types in javascript
+primiatives string boolen null undefined symbol int
+nonprimatives functions array object
+let str="hello world";
+let str1='hello world';
+let istrur=true;
+null is a object 
+let a=null;
+console .log(typeof a);
+let a=27;
+if(a>=10)
+{
+    isValid=true;
+}
+console.log(typeof.a);
+console.log(typeof.isvalid);
+console.log(isvalid);
+
+isUndiffiend
+int c;
+console.log(typeof.c);
+console.log(c);
+symbol
+let syn=Symbol("hello");
+console.log(syn);
+console.log(typeof.syn);
+bigint
+let bigInt=bigInt(234561234562345634512342345765476234546);
+console.log(bigInt);
+console.log(typeof bigInt);
+const person{
+    name:"micheal",
+    isStudent:true,
+    address:{
+        city:"chennai",
+        state:"tamilnadu",
+    }
+
+}
+console.log(person.name);
+const arr=[1,2,3,4,4,5];
+let age=new  Array[5];
+for(let i=0;i<age.length;i++)
+{
+    console.log(age[i]);
+}
+arr.push(6);
+add at last
+arr.unshift(0);
+for add at front
+arr.pop();
+arr.shift();
+to remove an element from array
+for(int i=0;i<arr.length;i++)
+{
+    console.log(arr[i]);
+}
+functions num(){
+    console.log("num function is called");
+}
+num();
+num();
+function add(a,b)
+{
+    return a+b;
+}
+int a=10;
+int b=90;
+let c=add(a,b);
+console.log(c);
+function name(a)
+{
+    console.log("hello"+a);
+}
+name("gokul");
+arrow function
+const multiple=(a,b)=>{
+    return a*b;
+}
+console.log(multiple(2,3));
+function arrow=(a)=>{
+ console.log("hello"+a);
+}
+arrow(gokul);
+function greet(name,callback)
+{
+    console.log("hello"+name);
+    callback();
+}
+function saygoodboy(){
+    console.log("goodboy");
+}
+greet(tharani,saygoodboy);
+syncronous programming
+console.log("task1");
+console.log("task2");
+console.log("task3");
+one code run after other one
+asyncronous programming
+console.log("task1");
+setTimeout(()=>{
+    console.log("task2");
+},2000);
+console.log("task3");
